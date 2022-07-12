@@ -95,6 +95,9 @@ body {
 .button:hover {
   box-shadow: #000 2px 2px 10px;  
 }
+
+.logo:hover {
+}
 /*#endregion general */
 
 /* #region HEADER */
@@ -324,6 +327,7 @@ margin: 5px
   color: white;
   flex-basis: 50px;
   justify-content: space-between;
+  align-items: center;
   margin-bottom:5rem;
 }
 
