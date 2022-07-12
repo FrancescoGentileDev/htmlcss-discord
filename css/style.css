@@ -85,15 +85,15 @@ body {
   display: block;
   font-weight: 500;
   border: none;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border-radius: 100px;
   background-color: #fff;
   color: black;
   text-decoration: none;
 }
 
-button:hover {
-  color: black !important;
+.button:hover {
+  box-shadow: #000 2px 2px 10px;  
 }
 /*#endregion general */
 
@@ -103,6 +103,7 @@ button:hover {
   nav {
     justify-content: space-around; 
     padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #255ee9;
     flex-grow: 1;
     flex-shrink: 1;
